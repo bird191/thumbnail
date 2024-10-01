@@ -1,0 +1,39 @@
+body{
+  font-family: Arial,sans-serif;
+  background: black;
+  box-shadow: 0 0 10px 2px gold;
+  width: 400px;
+}
+
+.flex-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border:1px solid red;
+  border-radius: 5px;
+  background: blue;
+}
+.flex-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.text-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.text-wrapper h3 {
+  margin: 0;
+  font-size: 1.2cm;
+}
+.text-wrapper p {
+  margin: 5px 0 0;
+}
